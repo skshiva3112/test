@@ -47,3 +47,5 @@ def cancel_order(order_id: UUID):
 @app.post('/orders/{order_id}/pay')
 def pay_order(order_id: UUID):
     return order
+
+# These are some of the api methods which are used to create https
